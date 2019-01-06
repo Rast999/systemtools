@@ -16,7 +16,11 @@ Above named scripts are used to split, and then join big files in chunks.
 3. The length of the file name created (Depends on the number of chunks created)
 
 ## NORMAL vs. INTERACTIVE usage:
+
+## NORMAL
 ![](./src/default.gif)
+
+## INTERACTIVE
 ![](./src/interactive.gif)
 
 # =============================
@@ -28,3 +32,11 @@ Above named scripts are used to split, and then join big files in chunks.
   - **RESULT-FOLDER** - Optional folder where the result-file will be saved. If none provided, defaults to the current working directory.
   
 ##### If the metadata textfile is deleted, the script will still try to join the files, but will warn the user that data might get corrupted. If metadata was the only file deleted, that should not be a big problem normally. If any other chunks were deleted, the file might get corrupted.
+
+## NORMAL vs. INTERACTIVE usage:
+
+## NORMAL
+![](./src/join_default.gif)
+
+## INTERACTIVE
+![](./src/join_interactive.gif)
