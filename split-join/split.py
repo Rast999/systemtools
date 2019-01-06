@@ -54,6 +54,9 @@ if __name__ == "__main__":
         interactive = True # Ask user for filename to split and path to store the result
         filepath = input('Please provide the file to split: ')
         splitpath = input('Please provide the path to store the result files: ')
+        _chunksize = input('Please provide the chunk size (leave blank for default): ')
+        if len(_chunksize) != 0:
+            chunksize = int(_chunksize)
     else:
         filepath = sys.argv[1]
         splitpath = sys.argv[2]
