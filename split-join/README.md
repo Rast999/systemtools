@@ -17,7 +17,7 @@ Above named scripts are used to split, and then join big files in chunks.
 
 ## NORMAL vs. INTERACTIVE usage:
 ![](./src/default.gif)
-![]()./src/interactive.gif)
+![](./src/interactive.gif)
 
 # =============================
 
