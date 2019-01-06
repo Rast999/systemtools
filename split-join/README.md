@@ -15,6 +15,10 @@ Above named scripts are used to split, and then join big files in chunks.
 2. Number of chunks created.
 3. The length of the file name created (Depends on the number of chunks created)
 
+## NORMAL vs. INTERACTIVE usage:
+![](./src/default.gif)
+![]()./src/interactive.gif)
+
 # =============================
 
 #### *join.py* 
