@@ -14,3 +14,13 @@ Above named scripts are used to split, and then join big files in chunks.
 1. Original file checksum (will be checked on joining to assure file integrity)
 2. Number of chunks created.
 3. The length of the file name created (Depends on the number of chunks created)
+
+# =============================
+
+#### *join.py* 
+##### Usage: python join.py \[PATH-TO-CHUNKS\] \[RESULT-FILE\] \[RESULT-FOLDER\]
+  - **PATH-TO-CHUNKS** - path to the folder containing the chunks to be joined
+  - **RESULT-FILE** - File name to be created out of the chunks. Extension should be mentioned.
+  - **RESULT-FOLDER** - Optional folder where the result-file will be saved. If none provided, defaults to the current working directory.
+  
+##### If the metadata textfile is deleted, the script will still try to join the files, but will warn the user that data might get corrupted. If metadata was the only file deleted, that should not be a big problem normally. If any other chunks were deleted, the file might get corrupted.
